@@ -4,11 +4,10 @@ A robust and scalable Laravel 10 REST API with Sanctum authentication, providing
 
 # Installation
 
-  - to Start Docker run :
+    to Start Docker run :
   - ./vendor/bin/sail up
 
-- Inside the Docker container run:
-
+Inside the Docker container run:
  - composer install
  - php artisan key:generate
  - php artisan migrate
