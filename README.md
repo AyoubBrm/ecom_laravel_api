@@ -2,17 +2,17 @@
 
 A robust and scalable Laravel 10 REST API with Sanctum authentication, providing secure access to Products and Categories management.
 
-Installation :
+# Installation
  - Start Docker:
- - ./vendor/bin/sail up
+  - ./vendor/bin/sail up
 
 - Inside the Docker container:
-- composer install
-- php artisan key:generate
-- php artisan migrate
-- php artisan queue:work (For queues)  # Ensure the queue driver (Redis, etc.) is properly configured
+ - composer install
+ - php artisan key:generate
+ - php artisan migrate
+ - php artisan queue:work (For queues)  # Ensure the queue driver (Redis, etc.) is properly configured
 
-API Structure:
+# API Structure:
 * Authentication: Secure user registration and login via Laravel Sanctum
 * Resource Management: Full CRUD functionality for Products and Categories
 * Queue Processing: Supports background tasks using Redis, database queues, etc.
