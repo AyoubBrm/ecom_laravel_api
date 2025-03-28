@@ -3,10 +3,12 @@
 A robust and scalable Laravel 10 REST API with Sanctum authentication, providing secure access to Products and Categories management.
 
 # Installation
- - Start Docker:
+
+  - to Start Docker run :
   - ./vendor/bin/sail up
 
-- Inside the Docker container:
+- Inside the Docker container run:
+
  - composer install
  - php artisan key:generate
  - php artisan migrate
